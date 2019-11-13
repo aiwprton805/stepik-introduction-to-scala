@@ -27,7 +27,7 @@ object Main extends App {
     val name = "Hello, "
   }
 
-  def greeting(name: String) {
+  def greeting(name: String): Unit = {
     println(prefix + name)
   }
 
